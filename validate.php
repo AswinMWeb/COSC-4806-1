@@ -11,8 +11,8 @@ $_SESSION['username'] = $username;
 $password = $_REQUEST['password'];
 
 if ($username == $valid_username && $password == $valid_password){
-  header('Location: /index.php')
-    echo "Login successful";
+  header('Location: /index.php');
+  echo "Login successful";
 }else {
   if(!isset($_SESSION['login_attempts'])){
     $_SESSION['login_attempts'] = 1;
