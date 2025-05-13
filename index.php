@@ -14,6 +14,8 @@ session_start();
        
 
         <p> Welcome , <?=$_SESSION['username']?> </p>
+        
+        <p>Today is <?=date('l, F j, Y')?></p>
      
 
     </body>
