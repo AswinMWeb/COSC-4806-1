@@ -4,7 +4,7 @@
 session_start();
 
 $valid_username = 'aswin';
-$valid_password = 'Password';
+$valid_password = '12345';
 
 $username = $_REQUEST['username'];
 $_SESSION['username'] = $username;
