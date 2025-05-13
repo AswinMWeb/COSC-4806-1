@@ -1,7 +1,7 @@
 <?php
 
 
-session_start()
+session_start();
 
 $valid_username = 'aswin';
 $valid_password = 'Password';
