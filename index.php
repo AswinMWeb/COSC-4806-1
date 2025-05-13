@@ -9,6 +9,8 @@
 
 
        <p><a href ="/login.php"> Click here to login </a></p>
+
+        <p> Welcome , <?=$_SESSION['username']?> </p>
      
 
     </body>
