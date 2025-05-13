@@ -10,13 +10,13 @@
 
     </body>
 <form action="/validate.php" method ="post">
-  <label for="Username">Username:</label>
+  <label for="username">Username:</label>
   <br>
-  <input type="text" id="Username" name="Username" >
+  <input type="text" id="username" name="username" >
   <br> 
-  <label for="Password"></label>Password:</label>
+  <label for="password"></label>Password:</label>
   <br>
-  <input type="Password" id="Password" name="Password" >
+  <input type="password" id="password" name="password" >
   <br><br>
   <input type="submit" value="Submit">
 </form>
