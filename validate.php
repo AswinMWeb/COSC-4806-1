@@ -18,7 +18,7 @@ if ($username == $valid_username && $password == $valid_password){
   }else{
     $_SESSION['login_attempts'] = $_SESSION['login_attempts'] + 1;;
   }
-  echo "Login failed. Attempts: " . $_SESSION['login_attempts']
+  echo "Login failed. Attempts: " . $_SESSION['login_attempts'];
   
 }
     
